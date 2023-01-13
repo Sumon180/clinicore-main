@@ -1,0 +1,6 @@
+// for update Appointment
+
+CC backend URL - PUT - https://ccdemo.clinicore.eu/api/v1/appointments/7656
+
+
+CC UI url - https://ccdemo.clinicore.eu/patients/667/timeline

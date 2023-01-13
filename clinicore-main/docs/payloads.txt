@@ -1,0 +1,498 @@
+{
+	"type": 4,
+	"nsp": "/",
+	"id": 2,
+	"data": [
+		"mobimed:App\\Events\\AppointmentWasCreated",
+		{
+			"type": "appointment",
+			"payload": {
+				"id": 7529,
+				"startsAt": "2022-11-28T07:30:00.000Z",
+				"endsAt": "2022-11-28T09:00:00.000Z",
+				"arrivedAt": null,
+				"processedAt": null,
+				"treatmentStartedAt": null,
+				"allDay": 1,
+				"slot": false,
+				"subject": "",
+				"title": "<strong>assange, julian</strong>: [Dr. Mustermann] Test - Operationsraum - US",
+				"firstOfPatient": true,
+				"onPatientBirthday": false,
+				"patientFollowUpAt": null,
+				"description": "",
+				"color": "#dc4a4a",
+				"patients": [
+					447
+				], => check Contaxt as well for details 
+				"people": [
+					5001
+				], // ignore
+				"resources": [
+					4
+				],
+				"categories": [
+					8
+				], ?????? expecting one value usnig calenders
+				"location": null,
+				"services": [
+					7
+				],
+				"series": null,
+				"canceledWhy": null,
+				"createdAt": "2022-11-28T07:25:20.000Z",
+				"updatedAt": "2022-11-28T07:25:21.000Z",
+				"canceledAt": null,
+				"createdBy": 5003,
+				"updatedBy": 5003,
+				"canceledBy": null,
+				"reminderAt": null,
+				"reminderStatus": "no-reminder",
+				"reminderSentAt": null,
+				"deletedAt": null
+			},
+			"socket": null
+		}
+	]
+}
+
+
+
+
+{
+	"type": 4,
+	"nsp": "/",
+	"id": 2,
+	"data": [
+		"mobimed:App\\Events\\EntityWasCreated",
+		{
+			"type": "patient",
+			"payload": {
+				"id": 447,
+				"createdAt": "2022-11-26T19:10:57.000Z",
+				"updatedAt": "2022-11-26T19:10:57.000Z",
+				"createdBy": 5003,
+				"updatedBy": 5003,
+				"firstName": "julian",
+				"lastName": "assange",
+				"dob": null,
+				"ssn": null,             => ??
+				"flashMessage": "",      => ??
+				"active": true,
+				"phoneMobile": null,
+				"email": null,
+				"title": null,             => ??
+				"titleSuffix": null,
+				"healthInsurance": null,
+				"gender": null,
+				"addresses": [],
+				"categories": [],
+				"customFields": [
+					3728,
+					3729,
+					3730,
+					3731,
+					3732,
+					3733
+				],
+				"invoices": [],
+				"payments": [],
+				"files": [],
+				"history": [],
+				"appointments": [],
+				"messages": [],
+				"medications": [],
+				"qrUrl": "https://api-ccdemo.clinicore.eu/v1/qr/100/447.png",
+				"avatarUrl": null
+			},
+			"socket": null
+		}
+	]
+}
+
+
+
+
+{
+    "id": 3728,
+    "values": [
+        {
+            "id": 1,
+            "value": "männlich",
+            "createdAt": null,
+            "updatedAt": null,
+            "createdBy": null,
+            "updatedBy": null
+        }
+    ],
+    "field": {
+        "id": 1,
+        "name": "gender",
+        "label": "Geschlecht",
+        "validation": "{}",
+        "type": "select",
+        "color": null,
+        "positions": [
+            {
+                "id": 1,
+                "order": 1,
+                "tab": 1,
+                "customField": 1
+            },
+            {
+                "id": 31,
+                "order": 1,
+                "tab": 5,
+                "customField": 1
+            }
+        ],
+        "allowMultipleValues": false,
+        "useCustomSort": null,
+        "isRequired": false,
+        "allowedValues": [
+            {
+                "id": 1,
+                "value": "männlich",
+                "createdAt": null,
+                "updatedAt": null,
+                "createdBy": null,
+                "updatedBy": null
+            },
+            {
+                "id": 2,
+                "value": "weiblich",
+                "createdAt": null,
+                "updatedAt": null,
+                "createdBy": null,
+                "updatedBy": null
+            },
+            {
+                "id": 3,
+                "value": "andere",
+                "createdAt": null,
+                "updatedAt": null,
+                "createdBy": null,
+                "updatedBy": null
+            }
+        ],
+        "defaultValues": []
+    },
+    "patient": 447
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "type": "patient",
+    "payload": {
+        "id": 501,
+        "createdAt": "2022-12-01T09:21:02.000Z",
+        "updatedAt": "2022-12-01T09:21:02.000Z",
+        "createdBy": 5003,
+        "updatedBy": 5003,
+        "firstName": "TEST FN",
+        "lastName": "TEST LAST NM",
+        "dob": "1994-12-12T00:00:00.000Z",
+        "ssn": "56789",                             ==> ?? new custom field
+        "flashMessage": "",
+        "active": true,
+        "phoneMobile": "9678676576",
+        "email": "dadadasd@ikmghbjhm.com",
+        "title": null,
+        "titleSuffix": null,
+        "healthInsurance": null,
+        "gender": "männlich",                          custom field 
+        "addresses": [
+            {
+                "id": 701,
+                "label": "ytuyfgv",
+                "name": "utyrhfgjknml",
+                "street": "sddsd",
+                "streetNumber": "sdsds",
+                "postalCode": "ewew",
+                "city": "NOIDA",
+                "country": "AF",
+                "primary": 0
+            },
+            {
+                "id": 702,
+                "label": "dadadad",
+                "name": "saddad",
+                "street": "asddadadad",
+                "streetNumber": "dadada",
+                "postalCode": "adadad",
+                "city": "NOIDA",
+                "country": "VI",
+                "primary": 1
+            }
+        ],
+        "categories": [                                     custom field 
+            2,
+            11,
+            10,
+            9
+        ],
+        "customFields": [                                  
+            4060,                                                
+            4061,
+            4062,
+            4063,
+            4064,
+            4065
+        ],
+        "invoices": [],
+        "payments": [],
+        "files": [],
+        "history": [],
+        "appointments": [],
+        "messages": [],
+        "medications": [],
+        "qrUrl": "https://api-ccdemo.clinicore.eu/v1/qr/100/501.png",
+        "avatarUrl": null
+    },
+    "socket": null
+}
+
+
+
+"gender",              ====> going
+"email"                   ignored
+"phone-mobile"                    ignored
+"reminder-delivery-methods"                 ===================> working
+"note"                                                  =================> endpoint
+"how-did-you-hear-about-us"                  source 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+    "mobimed:App\\Events\\EntityWasUpdated",
+    {
+        "type": "appointment",
+        "payload": {
+            "id": 7634,
+            "startsAt": "2022-12-05T13:30:00.000Z",
+            "endsAt": "2022-12-05T14:00:00.000Z",
+            "arrivedAt": null,
+            "processedAt": null,
+            "treatmentStartedAt": null,
+            "allDay": 0,
+            "slot": false,
+            "subject": "xzxzxxzxzxzx",
+            "title": "ABGESAGT - <strong>work, arpit (29)</strong>: [Dr. Musterfrau] Erstgespräch - Operationsraum - HKFE (xzxzxxzxzxzx)",
+            "firstOfPatient": true,
+            "onPatientBirthday": false,
+            "patientFollowUpAt": null,
+            "description": "",
+            "color": null,
+            "patients": [
+                670
+            ],
+            "people": [
+                5002
+            ],
+            "resources": [
+                4
+            ],
+            "categories": [
+                7
+            ],
+            "location": null,
+            "services": [
+                1
+            ],
+            "series": null,
+            "canceledWhy": "no reason",
+            "createdAt": "2022-12-05T13:34:49.000Z",
+            "updatedAt": "2022-12-06T10:18:08.000Z",
+            "canceledAt": "2022-12-06T10:18:08.000Z",
+            "createdBy": 5003,
+            "updatedBy": 5003,
+            "canceledBy": 5003,
+            "reminderAt": null,
+            "reminderStatus": "no-reminder",
+            "reminderSentAt": null,
+            "deletedAt": null
+        },
+        "socket": null
+    }
+]
+
+
+
+Appointment Delete { type: 'appointment', id: 7637, socket: null }
+Appointment Delete {"type":"appointment","id":7637,"socket":null}
+
+
+
+{
+	"type": 4,
+	"nsp": "/",
+	"id": 2,
+	"data": [
+		"mobimed:App\\Events\\EntityWasCreated",
+		{
+			"type": "invoice",
+			"payload": {
+				"id": 545,
+				"invoiceNumber": "E2023-00012",
+				"createdAt": "2023-01-04T05:48:06.000Z",
+				"updatedAt": "2023-01-04T05:48:06.000Z",
+				"createdBy": 5003,
+				"updatedBy": 5003,
+				"addressText": null,
+				"discount": 0,
+				"status": "open",
+				"vatId": null,
+				"description": "",
+				"note": null,
+				"canceledWhy": null,
+				"pdfUrl": "https://api-ccdemo.clinicore.eu/v1/invoices/545.pdf",
+				"invoiceNumberSequence": "demo2",
+				"address": {
+					"id": 1107,
+					"label": null,
+					"name": "ben test02",
+					"street": null,
+					"streetNumber": null,
+					"postalCode": null,
+					"city": null,
+					"country": "DE",
+					"primary": 0
+				},
+				"appointment": null,
+				"positions": [
+					{
+						"id": 892,
+						"costCenter": 1,
+						"invoice": 545,
+						"count": 1,
+						"originalProduct": null,
+						"originalService": 11,
+						"originalDiscount": null,
+						"originalGoaeService": null,
+						"name": "BTX 1 Region",
+						"gross": 159,
+						"taxRate": 0,
+						"discount": null,
+						"discountText": null,
+						"additionalText": null,
+						"date": null
+					}
+				],
+				"reversedBy": null,
+				"reverses": null,
+				"patient": 878,
+				"payments": [],
+				"practicioner": 5001,
+				"sentAt": null,
+				"wahonlinedAt": null,
+				"diagnoses": [
+					{
+						"text": "Anisomastie"
+					}
+				]
+			},
+			"socket": null
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+	"type": 4,
+	"nsp": "/",
+	"id": 2,
+	"data": [
+		"mobimed:App\\Events\\EntityWasCreated",
+		{
+			"type": "payment",
+			"payload": {
+				"id": 509,
+				"paymentNumber": "EBK2023-00008",
+				"gross": 100,
+				"customIdentification": null,
+				"comment": null,
+				"createdAt": "2023-01-04T05:53:42.000Z",
+				"date": "2023-01-04T05:53:42.000Z",
+				"updatedAt": "2023-01-04T05:53:42.000Z",
+				"createdBy": 5003,
+				"updatedBy": 5003,
+				"register": 6,
+				"patient": 878,
+				"invoicePayments": [
+					{
+						"id": 486,
+						"gross": 100,
+						"invoice": 545,
+						"payment": 509
+					}
+				],
+				"reversedBy": null,
+				"reverses": null,
+				"pdfUrl": "https://api-ccdemo.clinicore.eu/v1/payments/509.pdf",
+				"canceled": false
+			},
+			"socket": null
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "sub",
+  "version": "1.0.0",
+  "description": "Consumer for the bridge queue, process the messages in queue & sync data between CC and GHL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ENV=production node server.js"
+  },
+  "author": "Ongraph Tech.",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.10.3",
+    "axios": "^1.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "i": "^0.3.7",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2"
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "type": "patient",
+    "payload": {
+        "id": 501,
+        "createdAt": "2022-12-01T09:21:02.000Z",
+        "updatedAt": "2022-12-01T09:21:02.000Z",
+        "createdBy": 5003,
+        "updatedBy": 5003,
+        "firstName": "TEST FN",
+        "lastName": "TEST LAST NM",
+        "dob": "1994-12-12T00:00:00.000Z",
+        "ssn": "56789",
+        "flashMessage": "",
+        "active": true,
+        "phoneMobile": "9678676576",
+        "email": "dadadasd@ikmghbjhm.com",
+        "title": null,
+        "titleSuffix": null,
+        "healthInsurance": null,
+        "gender": "männlich",
+        "addresses": [
+            {
+                "id": 701,
+                "label": "ytuyfgv",
+                "name": "utyrhfgjknml",
+                "street": "sddsd",
+                "streetNumber": "sdsds",
+                "postalCode": "ewew",
+                "city": "NOIDA",
+                "country": "AF",
+                "primary": 0
+            },
+            {
+                "id": 702,
+                "label": "dadadad",
+                "name": "saddad",
+                "street": "asddadadad",
+                "streetNumber": "dadada",
+                "postalCode": "adadad",
+                "city": "NOIDA",
+                "country": "VI",
+                "primary": 1
+            }
+        ],
+        "categories": [
+            2,
+            11,
+            10,
+            9
+        ],
+        "customFields": [
+            4060,
+            4061,
+            4062,
+            4063,
+            4064,
+            4065
+        ],
+        "invoices": [],
+        "payments": [],
+        "files": [],
+        "history": [],
+        "appointments": [],
+        "messages": [],
+        "medications": [],
+        "qrUrl": "https://api-ccdemo.clinicore.eu/v1/qr/100/501.png",
+        "avatarUrl": null
+    },
+    "socket": null
+}

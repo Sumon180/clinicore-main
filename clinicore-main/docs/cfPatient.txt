@@ -1,0 +1,388 @@
+[
+    {
+        "id": 4054,
+        "values": [
+            {
+                "id": 1,
+                "value": "männlich",
+                "createdAt": null,
+                "updatedAt": null,
+                "createdBy": null,
+                "updatedBy": null
+            }
+        ],
+        "field": {
+            "id": 1,
+            "name": "gender",
+            "label": "Geschlecht",
+            "validation": "{}",
+            "type": "select",
+            "color": null,
+            "positions": [
+                {
+                    "id": 1,
+                    "order": 1,
+                    "tab": 1,
+                    "customField": 1
+                },
+                {
+                    "id": 31,
+                    "order": 1,
+                    "tab": 5,
+                    "customField": 1
+                }
+            ],
+            "allowMultipleValues": false,
+            "useCustomSort": null,
+            "isRequired": false,
+            "allowedValues": [
+                {
+                    "id": 1,
+                    "value": "männlich",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 2,
+                    "value": "weiblich",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 3,
+                    "value": "andere",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                }
+            ],
+            "defaultValues": []
+        },
+        "patient": 500
+    },
+    {
+        "id": 4055,
+        "values": [
+            {
+                "id": 1355,
+                "value": "htrsgdtfgh@trsdhfjk.comm",
+                "createdAt": "2022-12-01T08:44:06.000Z",
+                "updatedAt": "2022-12-01T08:44:07.000Z",
+                "createdBy": 5003,
+                "updatedBy": 5003
+            }
+        ],
+        "field": {
+            "id": 7,
+            "name": "email",
+            "label": "E-Mail Adresse",
+            "validation": "{}",
+            "type": "email",
+            "color": null,
+            "positions": [
+                {
+                    "id": 7,
+                    "order": 7,
+                    "tab": 1,
+                    "customField": 7
+                },
+                {
+                    "id": 37,
+                    "order": 7,
+                    "tab": 5,
+                    "customField": 7
+                }
+            ],
+            "allowMultipleValues": true,
+            "useCustomSort": null,
+            "isRequired": false,
+            "allowedValues": [],
+            "defaultValues": []
+        },
+        "patient": 500
+    },
+    {
+        "id": 4056,
+        "values": [
+            {
+                "id": 1356,
+                "value": "+49 7878 786655",
+                "createdAt": "2022-12-01T08:44:06.000Z",
+                "updatedAt": "2022-12-01T08:44:07.000Z",
+                "createdBy": 5003,
+                "updatedBy": 5003
+            },
+            {
+                "id": 1357,
+                "value": "+49 7979 796655",
+                "createdAt": "2022-12-01T08:44:06.000Z",
+                "updatedAt": "2022-12-01T08:44:07.000Z",
+                "createdBy": 5003,
+                "updatedBy": 5003
+            }
+        ],
+        "field": {
+            "id": 8,
+            "name": "phone-mobile",
+            "label": "Telefon Mobil",
+            "validation": "{}",
+            "type": "telephone",
+            "color": null,
+            "positions": [
+                {
+                    "id": 8,
+                    "order": 8,
+                    "tab": 1,
+                    "customField": 8
+                },
+                {
+                    "id": 38,
+                    "order": 8,
+                    "tab": 5,
+                    "customField": 8
+                }
+            ],
+            "allowMultipleValues": true,
+            "useCustomSort": null,
+            "isRequired": false,
+            "allowedValues": [],
+            "defaultValues": []
+        },
+        "patient": 500
+    },
+    {
+        "id": 4057,
+        "values": [
+            {
+                "id": 21,
+                "value": "SMS",
+                "createdAt": null,
+                "updatedAt": null,
+                "createdBy": null,
+                "updatedBy": null
+            },
+            {
+                "id": 22,
+                "value": "E-Mail",
+                "createdAt": null,
+                "updatedAt": null,
+                "createdBy": null,
+                "updatedBy": null
+            }
+        ],
+        "field": {
+            "id": 11,
+            "name": "reminder-delivery-methods",
+            "label": "Terminerinnerungen",
+            "validation": "{}",
+            "type": "select",
+            "color": null,
+            "positions": [
+                {
+                    "id": 11,
+                    "order": 11,
+                    "tab": 1,
+                    "customField": 11
+                },
+                {
+                    "id": 41,
+                    "order": 11,
+                    "tab": 5,
+                    "customField": 11
+                }
+            ],
+            "allowMultipleValues": true,
+            "useCustomSort": null,
+            "isRequired": false,
+            "allowedValues": [
+                {
+                    "id": 21,
+                    "value": "SMS",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 22,
+                    "value": "E-Mail",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                }
+            ],
+            "defaultValues": [
+                {
+                    "id": 21,
+                    "value": "SMS",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                }
+            ]
+        },
+        "patient": 500
+    },
+    {
+        "id": 4058,
+        "values": [
+            {
+                "id": 1358,
+                "value": "This is a test note",
+                "createdAt": "2022-12-01T08:44:06.000Z",
+                "updatedAt": "2022-12-01T08:44:07.000Z",
+                "createdBy": 5003,
+                "updatedBy": 5003
+            }
+        ],
+        "field": {
+            "id": 15,
+            "name": "note",
+            "label": "Notiz",
+            "validation": "{}",
+            "type": "textarea",
+            "color": null,
+            "positions": [
+                {
+                    "id": 15,
+                    "order": 15,
+                    "tab": 1,
+                    "customField": 15
+                },
+                {
+                    "id": 45,
+                    "order": 15,
+                    "tab": 5,
+                    "customField": 15
+                }
+            ],
+            "allowMultipleValues": false,
+            "useCustomSort": null,
+            "isRequired": false,
+            "allowedValues": [],
+            "defaultValues": []
+        },
+        "patient": 500
+    },
+    {
+        "id": 4059,
+        "values": [
+            {
+                "id": 32,
+                "value": "Adwords",
+                "createdAt": null,
+                "updatedAt": null,
+                "createdBy": null,
+                "updatedBy": null
+            }
+        ],
+        "field": {
+            "id": 16,
+            "name": "how-did-you-hear-about-us",
+            "label": "Zu uns gekommen durch",
+            "validation": "{}",
+            "type": "select",
+            "color": null,
+            "positions": [
+                {
+                    "id": 16,
+                    "order": 16,
+                    "tab": 1,
+                    "customField": 16
+                },
+                {
+                    "id": 46,
+                    "order": 16,
+                    "tab": 5,
+                    "customField": 16
+                }
+            ],
+            "allowMultipleValues": false,
+            "useCustomSort": null,
+            "isRequired": false,
+            "allowedValues": [
+                {
+                    "id": 26,
+                    "value": "Persönliche Empfehlung",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 27,
+                    "value": "Überweisung",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 28,
+                    "value": "Internetwerbung",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 29,
+                    "value": "Gutschein",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 30,
+                    "value": "Fernsehen",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 31,
+                    "value": "Zeitschrift",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 32,
+                    "value": "Adwords",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 33,
+                    "value": "Facebook Ad",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                },
+                {
+                    "id": 34,
+                    "value": "Andere",
+                    "createdAt": null,
+                    "updatedAt": null,
+                    "createdBy": null,
+                    "updatedBy": null
+                }
+            ],
+            "defaultValues": []
+        },
+        "patient": 500
+    }
+]

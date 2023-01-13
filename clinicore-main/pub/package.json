@@ -1,0 +1,21 @@
+{
+  "name": "cchl-bridge-pub",
+  "version": "1.0.0",
+  "description": "Recieves events from CC and GHL and publish them in a queue",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ENV=production node server.js"
+  },
+  "author": "Ongraph Tech.",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.10.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.20",
+    "socket.io-client": "1.4.0"
+  },
+  "license": "ISC"
+}

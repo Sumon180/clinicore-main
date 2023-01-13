@@ -1,0 +1,41 @@
+how to install rabbit mq
+1. install erl 
+2. check erl version and then install suitable version, follow the steps in the following stackoverflow answer
+https://stackoverflow.com/a/57449961
+
+
+
+please check the configs
+
+user.email=js.developer@ongraph.com
+user.name=arpitrawat36
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/authority-entrepreneurs/clinicore.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+github token
+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
+
+
+Client Id: 63846be5e68ae7973957068e-lb2d0llk
+Client Secret: c3fe739a-0bf3-47ac-b8b9-a4ad5398f6ad
+
+code=2258b0cd6b898114701e709424474d2f8300c8aa
+
+{
+  "access_token": "fce26ea326cd6c7156a54c0befe56f06676aef09",
+  "token_type": "Bearer",
+  "expires_in": 86399,
+  "refresh_token": "8bbee72bc6c6a88306a1e59b108f51e3639a52b8",
+  "scope": "calendars/events.readonly contacts.write contacts.readonly calendars.readonly conversations.readonly conversations/message.readonly conversations/message.write conversations.write calendars/events.write locations/customFields.readonly locations/customFields.write",
+  "userType": "Location",
+  "locationId": "lpOydulNL4qNuZ5X79cb",
+  "hashedCompanyId": "a89b61a79153b1833652b409dbf3d25290bfb591f1aec07a4ad5d42f5bf39ecf"
+}
+AWS creds
+support@autopatient.co
+euk2mkj_wvw@AFD_wfk

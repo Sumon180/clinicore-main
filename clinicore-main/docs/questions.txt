@@ -1,0 +1,19 @@
+Questions 
+
+contact
+1. note how to pass to GHL
+2. categories how to pass to GHL ? in cf ??
+3. Appointmewnt source is present in custom field where do we send it ??
+4. How can it be possible if we need to check DB before on patient create ? upsert contact ??
+5. Dob ??
+
+
+Appointment
+assignedUserId: '',
+        address: '',
+        ignoreDateRange: '',
+        toNotify: ''
+
+
+
+How to set up ?? TEst account only ?? AWS ??
